@@ -37,8 +37,7 @@ The key goal is to make the app easy for users to navigate and understand. When 
 |                           Search Screen                            |                        Loading Screen                         |                        No Data Screen                         |
 |:------------------------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
 |  <img src="screenshots/search_by_country_screen.png" width="250">  |  <img src="screenshots/home_loading_screen.png" width="250">  |  <img src="screenshots/home_no_data_screen.png" width="250">  |
-|                            Home Screen                             |                      Home Search Screen                       |               
-| :----------------------------------------------------------------: | :-----------------------------------------------------------: | 
+|                            Home Screen                             |                      Home Search Screen                       |
 |        <img src="screenshots/home_screen.png" width="250">         |  <img src="screenshots/home_search_screen.png" width="250">   | 
 
 ### Repository Owner Info
