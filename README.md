@@ -1,16 +1,49 @@
-# university_info
+# University Info Finder
 
-A new Flutter project.
+A Flutter Application to find all university in any country. In this app I have use `provider` for state management and `http` for fetch data from API.
 
-## Getting Started
+## More Info
 
-This project is a starting point for a Flutter application.
+This a challenge app for `📝 TASK 2` in AppDev Cohort 1.0 workshop.
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 App Description:
+Create an app that allows users to type the name of a country and quickly fetch related information using an API. The app should display the fetched data in a user-friendly list view format.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎯 Goal:
+The key goal is to make the app easy for users to navigate and understand. When the user types in a parameter (eg: country name) and hits a button, the app should swiftly display useful information related to their input.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+🔗 API Link: `http://universities.hipolabs.com/search?country=India`
+
+**Packages we are using:**
+
+- http
+- google_fonts
+- provider
+- shimmer
+- url_launcher
+- lottie
+
+**Code Credit**
+
+- Code using Flutter with ❤️ by [Md. Al-Amin](https://github.com/alamin-karno)
+
+## Animation (GIF):
+| University Finder App (GIF) |
+|:---------------------------:|
+|  <img src="#" width="250">  |
+
+## Screenshots:
+|       Search Screen       |
+|:-------------------------:|
+| <img src="#" width="250"> |
+
+### Repository Owner Info
+
+### Md. Al-Amin
+##### Junior Software Engineer (Android & iOS) at Rokomari.com
+
+__Email :__ [ alamin.karno@outlook.com ](mailto:alamin.karno@outlook.com) \
+__Github :__ [Md. Al-Amin](https://github.com/alamin-karno) \
+__Facebook :__ [মোঃ আল-আমিন খন্দকার কর্ণ](https://facebook.com/alamin.kanro) \
+__Linkedin :__ [Md. Al-Amin](https://www.linkedin.com/in/alaminkarno/)
