@@ -29,9 +29,9 @@ The key goal is to make the app easy for users to navigate and understand. When 
 - Code using Flutter with ❤️ by [Md. Al-Amin](https://github.com/alamin-karno)
 
 ## Animation (GIF):
-| University Finder App (GIF) |
-|:---------------------------:|
-|  <img src="#" width="250">  |
+|                 University Finder App (GIF)                  |
+|:------------------------------------------------------------:|
+| <img src="screenshots/universiy_finder_app.gif" width="250"> |
 
 ## Screenshots:
 |       Search Screen       |
