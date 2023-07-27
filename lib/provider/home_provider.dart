@@ -4,10 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:university_info/model/university_model.dart';
 
-class GetUniversityProvider with ChangeNotifier {
-  List<UniversityModel> responseData = [];
-
+class HomeProvider with ChangeNotifier {
   bool isLoading = false;
+
+  bool _isSearchActive = false;
+
+  String _searchQuery = '';
+
+  List<UniversityModel> responseData = [];
 
   Future<void> getAllUniversityData(String country) async {
     responseData = [];
@@ -35,4 +39,18 @@ class GetUniversityProvider with ChangeNotifier {
     isLoading = false;
     notifyListeners();
   }
+
+  void changeSearchStatus() {
+    _isSearchActive = !_isSearchActive;
+    notifyListeners();
+  }
+
+  get isSearch => _isSearchActive;
+
+  onChangedQuery(String? query) {
+    _searchQuery = query ?? '';
+    notifyListeners();
+  }
+
+  String get searchQuery => _searchQuery;
 }
